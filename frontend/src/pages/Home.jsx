@@ -4,7 +4,7 @@ import { FaReact, FaNodeJs, FaHtml5, FaCss3Alt, FaJsSquare, FaGithub, FaJava, Fa
 import { SiMongodb, SiTypescript, SiDart, SiFlutter, SiSpring, SiTrello, SiFigma } from 'react-icons/si';
 import profile from '../assets/images/profile.jpg'; 
 import About from '../pages/About';
-import Cv from '../pages/CV';
+import Cv from '../pages/Cv';
 import Contact from '../pages/Contact';
 import Projects from '../pages/Projets';
 

@@ -3,6 +3,10 @@ import { motion } from 'framer-motion';
 import { FaReact, FaNodeJs, FaHtml5, FaCss3Alt, FaJsSquare, FaGithub, FaJava, FaPhp, FaLaravel, FaPython, FaDatabase, FaGitAlt } from 'react-icons/fa';
 import { SiMongodb, SiTypescript, SiDart, SiFlutter, SiSpring, SiTrello, SiFigma } from 'react-icons/si';
 import profile from '../assets/images/profile.jpg'; 
+import About from '../pages/About';
+import Cv from '../pages/CV';
+import Contact from '../pages/Contact';
+import Projects from '../pages/Projets';
 
 import PostmanIcon from '../assets/icons/postman.svg?react';
 import CakephpIcon from '../assets/icons/cakephp.svg?react';
@@ -43,7 +47,9 @@ const techs = [
 
 export default function Home() {
   return (
-    <section className="pt-28 pb-16 px-6 max-w-6xl mx-auto text-center">
+        <div className="pt-28 pb-16 px-6 max-w-6xl mx-auto">
+
+    <section className="text-center">
       {/* Animation container */}
       <motion.div
         initial={{ opacity: 0, y: -20 }}
@@ -87,5 +93,26 @@ export default function Home() {
         ))}
       </motion.div>
     </section>
+    {/* About */}
+      <section className="mt-0">
+        <About />
+      </section>
+
+      {/* Projects */}
+      <section className="mt-0">
+        <Projects />
+      </section>
+
+      {/* CV */}
+      <section className="mt-0">
+        <Cv />
+      </section>
+
+      {/* Contact */}
+      <section className="mt-0">
+        <Contact />
+      </section>
+    </div>
+    
   );
 }

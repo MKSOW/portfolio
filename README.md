@@ -6,8 +6,7 @@ Bienvenue sur mon portfolio personnel développé en **React.js**, avec des anim
 
 ## 🔥 Aperçu
 
-![Aperçu du Portfolio](./src/assets/images/portfolio.png) 
-
+![Aperçu du Portfolio](./frontend/src/assets/preview.png)
 🎯 Objectif : Mettre en avant mes réalisations en tant que développeur Full Stack et permettre aux visiteurs (recruteurs, collaborateurs, etc.) de découvrir mon profil et me contacter facilement.
 
 ---

@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import { FaGithub, FaExternalLinkAlt } from "react-icons/fa";
-import flynxImg from "../assets/images/flynx.png"; 
+import flynxImg from "../assets/images/flynx.png";
 import portfolioImg from "../assets/images/portfolio.png";
 import tvmazeImg from "../assets/images/tvmazeApp.png";
 import todoImg from "../assets/images/todoList.png";
@@ -9,18 +9,18 @@ import frmaworkcssImg from "../assets/images/frameworkcss.png";
 const projets = [
   {
     titre: "FLYNX",
-    image:  flynxImg, 
+    image: flynxImg,
     description:
-    "Conception et développement full-stack de la plateforme de gestion des événements Flynx avec Node.js,Express, MongoDB côté backend, et React.js côté frontend pour les interfaces utilisateur collaboration avec l’équipe de conception pour transformer les maquettes en interfaces interactives accessibles et responsives. Réalisation de tests unitaires et d’intégration avec Jest et supertest, amélioration de la qualité du code via SonarQube, et usage de Docker pour simuler les environnements.",
-    demo: "https://flynx-frontend.onrender.com/home", 
+      "Conception et développement full-stack de la plateforme de gestion des événements Flynx avec Node.js,Express, MongoDB côté backend, et React.js côté frontend pour les interfaces utilisateur collaboration avec l’équipe de conception pour transformer les maquettes en interfaces interactives accessibles et responsives. Réalisation de tests unitaires et d’intégration avec Jest et supertest, amélioration de la qualité du code via SonarQube, et usage de Docker pour simuler les environnements.",
+    demo: "https://flynx-frontend.onrender.com/home",
     code: "https://github.com/MKSOW/lab-flynx",
   },
-    {
+  {
     titre: "Portfolio",
     image: portfolioImg,
     description:
       "Mon portfolio personnel avec React, Vite, TailwindCSS, animations Framer Motion et envoi de mails via Nodemailer.",
-    demo: "#",
+    demo: "https://portfolio-frontend-fozp.onrender.com",
     code: "https://github.com/MKSOW/portfolio",
   },
   {
@@ -28,25 +28,25 @@ const projets = [
     image: todoImg,
     description:
       "ToDoList est une application simple et intuitive développée avec React.js qui permet à l'utilisateur de : Ajouter des tâches via un champ de saisie dynamique.Visualiser la liste des tâches en temps réel. Supprimer les tâches une à une à l’aide d’un bouton ✗. Afficher le nombre de tâches restantes à accomplir. Profiter d'une interface claire avec un slogan motivant pour rester concentré. L'application repose sur les hooks useState et useEffect pour gérer l'état des tâches, avec une interface responsive pour une bonne expérience utilisateur sur tous les écrans.",
-    demo: "#",
-    code: "https://github.com/MKSOW/ecommerce-api",
+    demo: "https://my-todolist-rust-alpha.vercel.app/",
+    code: "https://github.com/MKSOW/myTodolist",
   },
   {
     titre: "TVMaze App",
     image: tvmazeImg,
     description:
       "Application web de recherche de séries TV utilisant l'API TVMaze, développée avec React.js. Permet aux utilisateurs de rechercher des séries, voir ses séries favoris, d'afficher les détails et de naviguer facilement grâce à une interface responsive.",
-    demo: "https://tvmaze-app.onrender.com",
-    code: "#"
+    demo: "https://tvmaze-app-delta.vercel.app/",
+    code: "https://github.com/MKSOW/TVMAZE-APP",
   },
   {
     titre: "Framework CSS",
     image: frmaworkcssImg,
     description:
       "Ce projet est une reproduction de la partie vitrine (interface utilisateur) du site officiel du Real Madrid, réalisée dans le cadre de la pratique du module sur les frameworks et préprocesseurs CSS. Utilisation de SCSS (Sass) pour structurer, optimiser et réutiliser les styles de manière modulaire et maintenable.Mise en place d’une architecture CSS propre avec des variables, mixins, et nesting pour un rendu fidèle à l’original.Interface responsive adaptée à différents formats d’écran (desktop, tablette, mobile).Fidèle à la charte graphique et à l’identité visuelle du club (typographie, couleurs, animations).Projet statique visant à se concentrer sur l’intégration frontend pure sans logique métier.✅ Ce projet m’a permis de renforcer mes compétences en intégration HTML/CSS avancée, et de manipuler SCSS de façon concrète dans un contexte proche d’un projet professionnel",
-    demo: "#",
-    code: "#"
-  }
+    demo: "https://frameworkcss-3iqo.vercel.app/",
+    code: "https://github.com/MKSOW/frameworkcss",
+  },
 ];
 
 export default function Projets() {
